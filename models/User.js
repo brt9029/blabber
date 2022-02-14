@@ -11,7 +11,7 @@ const UserSchema = new Schema(
         email: {
             type: String,
             unique: true,
-            $regex: /@mongodb\.com$/,
+            pattern : "@mongodb\.com$",
             required: 'You must provide an e-mail!',
             trim: true
         },
@@ -38,7 +38,7 @@ const UserSchema = new Schema(
 
 // get total count of friends on retrieval
 UserSchema.virtual('friendCount').get(function() {
-    return this.friends.length();
+    return this.friends.length;
 });
 
 const User = model('User', UserSchema);
