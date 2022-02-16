@@ -24,5 +24,8 @@
 - Type in ```npm i```
 - Use Insomnia or another API testing app to test routes inside of routes/api directory
 
+## Video Walkthrough
+- Link: https://drive.google.com/file/d/1k8mJCWHTEMBTDLJOWq5IZEu-QwCWVgcx/view
+
 ## Credits
 - Created by: [brt9029](www.github.com/brt9029 "GitHub Profile Link")
